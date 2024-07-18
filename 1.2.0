@@ -1,0 +1,20 @@
+Requirement already satisfied: ydata-profiling==4.8.3 in c:\users\22001\desktop\virtualenv\myenv\lib\site-packages (4.8.3)
+Collecting visions==0.7.4
+  Using cached visions-0.7.4-py3-none-any.whl.metadata (5.9 kB)
+Requirement already satisfied: joblib in c:\users\22001\desktop\virtualenv\myenv\lib\site-packages (1.1.1)
+Requirement already satisfied: scipy<1.14,>=1.4.1 in c:\users\22001\desktop\virtualenv\myenv\lib\site-packages (from ydata-profiling==4.8.3) (1.13.1)
+Requirement already satisfied: pandas!=1.4.0,<3,>1.1 in c:\users\22001\desktop\virtualenv\myenv\lib\site-packages (from ydata-profiling==4.8.3) (2.2.2)
+Requirement already satisfied: matplotlib<3.9,>=3.2 in c:\users\22001\desktop\virtualenv\myenv\lib\site-packages (from ydata-profiling==4.8.3) (3.8.4)
+Requirement already satisfied: pydantic>=2 in c:\users\22001\desktop\virtualenv\myenv\lib\site-packages (from ydata-profiling==4.8.3) (2.8.2)
+Requirement already satisfied: PyYAML<6.1,>=5.0.0 in c:\users\22001\desktop\virtualenv\myenv\lib\site-packages (from ydata-profiling==4.8.3) (6.0.1)
+Requirement already satisfied: jinja2<3.2,>=2.11.1 in c:\users\22001\desktop\virtualenv\myenv\lib\site-packages (from ydata-profiling==4.8.3) (3.1.4)
+INFO: pip is looking at multiple versions of ydata-profiling to determine which version is compatible with other requirements. This could take a while.
+
+The conflict is caused by:
+    The user requested visions==0.7.4
+    ydata-profiling 4.8.3 depends on visions<0.7.7 and >=0.7.5
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip to attempt to solve the dependency conflict
+
